@@ -11,3 +11,10 @@
     font-family: var(--fonte-titulos);
     font-weight: 300;
 }
+
+.time .colaboradores{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
