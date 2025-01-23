@@ -33,3 +33,19 @@
 .botao{
     font-family: var(--fonte-textos-corridos);
 }
+
+.texto_organizacao{
+    display: flex;
+    justify-content: center;
+}
+
+.texto_organizacao h2{
+    color: #6278F7;
+    margin-bottom: 80px;
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 9px;
+    font-family: var(--fonte-titulos);
+    font-weight: 300;
+}
