@@ -4,9 +4,15 @@ const Rodape = () => {
     return (
         <footer>
             <div className='icones'>
-                <img src="../../../public/imagens/fb.png" alt="icone Facebook" />
-                <img src="../../../public/imagens/tw.png" alt="icone Twitter" />
-                <img src="../../../public/imagens/ig.png" alt="icone Instagram" />
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../../../public/imagens/fb.png" alt="icone Facebook" />
+                </a>
+                <a href="https://x.com/home" target='_blank'>
+                    <img src="../../../public/imagens/tw.png" alt="icone Twitter" />
+                </a>
+                <a href="https://www.instagram.com/" target='_blank'>
+                    <img src="../../../public/imagens/ig.png" alt="icone Instagram" />
+                </a>
             </div>
             <div>
                 <img src="../../../public/imagens/logo.png" alt="icone Organo" />
